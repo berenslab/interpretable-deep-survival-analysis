@@ -1,0 +1,2 @@
+,patient_id,visit_number,image_eye,image_field,image_side,image_file,image_path,diagnosis_amd_grade_12c,duration,event
+0,1000_right_LS,6,right,F2,LS,1000_06_F2_RE_LS.jpg,1000/1000_06_F2_RE_LS.jpg,3.0,2,False

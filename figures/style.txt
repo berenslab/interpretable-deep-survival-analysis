@@ -1,0 +1,63 @@
+#### * LINES *
+lines.linewidth:    .7
+
+
+#### * FONT *
+# font.sans-serif:    Arial
+font.size:          6
+
+
+#### * AXES *
+axes.titlesize:     8    
+axes.titlepad:      3
+axes.linewidth:     .3
+axes.spines.right:  False
+axes.spines.top:    False
+axes.unicode_minus: True    ## use Unicode for the minus symbol rather than hyphen.  See
+                             ## https://en.wikipedia.org/wiki/Plus_and_minus_signs#Character_codes
+
+
+#### * TICKS *
+xtick.major.width:  .4
+ytick.major.width:  .4
+xtick.minor.width:  .3
+ytick.minor.width:  .3
+xtick.major.size:   2
+ytick.major.size:   2
+xtick.minor.size:   1
+ytick.minor.size:   1
+xtick.major.pad:    1.5
+ytick.major.pad:    1.5
+xtick.top:          False
+ytick.right:        False
+xtick.labelsize:    6
+ytick.labelsize:    6
+
+
+#### * LEGEND *
+legend.fancybox:    False
+legend.fontsize:    5
+
+
+#### * FIGURE *
+figure.constrained_layout.use:  True
+figure.dpi:                     1200       # figure dots per inch
+figure.facecolor:               white     ## figure facecolor
+
+figure.constrained_layout.h_pad:  0.001 # padding around axes. default is 0.04167
+figure.constrained_layout.w_pad:  0.001
+figure.constrained_layout.hspace: 0.0   # padding between axes. default is 0.02
+figure.constrained_layout.wspace: 0.0
+
+
+#### * IMAGES *
+image.cmap:         tab20 
+
+
+#### * SCATTER PLOTS *
+scatter.marker:     .               ## The default marker type for scatter plots.
+
+
+#### * SAVING FIGURES *
+savefig.dpi:       1200      # figure dots per inch or 'figure'
+savefig.facecolor: white 

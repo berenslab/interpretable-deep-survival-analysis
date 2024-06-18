@@ -1,0 +1,17 @@
+### Paths ### e.g. used by get_areds_data_dir()
+# You can enter one or more paths (e.g. if you have multiple workspaces or machines).
+# Path(s) to the project directory. This is the parent directory of this file.
+project_dirs: [
+  /workspaces/interpretable-deep-survival-analysis, 
+  /gpfs01/berens/user/jgervelmeyer/interpretable-deep-survival-analysis,
+  /Volumes/jgervelmeyer/interpretable-deep-survival-analysis,
+  /mnt/qb/work/berens/jgervelmeyer12/interpretable-deep-survival-analysis
+]
+
+# Path(s) to the data directory. This is where your AREDS image data is stored, see Readme.md.
+data_dirs: [
+  /mnt/areds,
+  /gpfs01/berens/data/data/areds,
+  /Volumes/berens_data/data/areds,
+  /mnt/qb/areds
+]

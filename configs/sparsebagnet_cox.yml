@@ -1,0 +1,42 @@
+# Paths to data and image files, relative to the data directory.
+metadata_csv: data/metadata_surv.csv
+image_dir: images-f2-1024px
+
+### CNN training ###
+cnn:
+  project: miccai-interpretable-deep-survival-analysis
+  run_id: 7ufjvvnz
+  resume_training: false
+  test_run: 
+    enabled: false
+  train_set_fraction: 1.0
+  val_set_fraction: 1.0
+  survival_times: [2, 4, 6, 8, 10]
+  gpu: 0
+  seed: 123
+  batch_size: 8
+  num_epochs: 50
+  num_workers: 8
+  img_size: 350
+  network: bagnet-surv
+  optimizer: adam
+  model_selection_metric: ibs
+  scheduler: none
+  scheduler_cosine_len: none              
+  warmup_epochs: 0
+  augmentation: true
+  weight_decay: 0.0
+  balancing: false
+  eval_sets: [val, test]
+  num_classes: 12                         
+  loss: cox
+  use_stereo_pairs: false                 
+  stop_after_epochs: 10 
+  lr: 0.000016
+  sparsity_lambda: 0.000006
+
+
+
+
+
+

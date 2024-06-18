@@ -1,0 +1,43 @@
+# Paths to data and image files, relative to the data directory.
+metadata_csv: data/metadata_surv.csv
+image_dir: images-f2-1024px
+
+### CNN training ###
+# Standard values for CNN training
+cnn:
+  project: miccai-interpretable-deep-survival-analysis
+  run_id: rqnad7lp
+  resume_training: false
+  test_run: 
+    enabled: false
+  train_set_fraction: 1.0
+  val_set_fraction: 1.0
+  survival_times: [2] 
+  gpu: 0
+  seed: 123
+  batch_size: 8 
+  num_epochs: 50
+  num_workers: 8 
+  img_size: 350
+  network: inceptionv3-surv
+  optimizer: adam
+  lr: .0001
+  weight_decay: 0.0 
+  model_selection_metric: bce_loss
+  scheduler: none
+  warmup_epochs: 0
+  augmentation: true
+  balancing: false
+  eval_sets: [val, test]
+  num_classes: 12
+  loss: celoss
+  use_stereo_pairs: false                
+  stop_after_epochs: 10 
+
+
+
+
+
+
+
+
