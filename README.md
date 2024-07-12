@@ -147,8 +147,20 @@ Baselines: SOTA end-to-end AMD progression models
 - Huang et al., 2023: We adapted the data augmentation from the [authors' code](https://github.com/YijinHuang/pytorch-classification/blob/master/data/transforms.py).
 
 ## Cite
-
-(coming soon)
+Until the MICCAI 2024 proceedings are published, please cite this preprint: 
+```bibtex
+@article {gervelmeyer2024interpretable,
+	author = {Gervelmeyer, Julius and Müller, Sarah and Djoumessi, Kerol and Merle, David and Clark, Simon J and Koch, Lisa and Berens, Philipp},
+	title = {Interpretable-by-design Deep Survival Analysis for Disease Progression Modeling},
+	elocation-id = {2024.07.11.24310270},
+	year = {2024},
+	doi = {10.1101/2024.07.11.24310270},
+	publisher = {Cold Spring Harbor Laboratory Press},
+	URL = {https://www.medrxiv.org/content/early/2024/07/11/2024.07.11.24310270},
+	eprint = {https://www.medrxiv.org/content/early/2024/07/11/2024.07.11.24310270.full.pdf},
+	journal = {medRxiv}
+}
+``` 
 
 
 <br>
