@@ -168,6 +168,7 @@ Baselines: SOTA end-to-end AMD progression models
         publisher = {Springer Nature Switzerland},
         volume = {LNCS 15010},
         month = {October},
+	pages = {502--512},
 	URL = {https://papers.miccai.org/miccai-2024/421-Paper1325.html}
 }
 ```
