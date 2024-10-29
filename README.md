@@ -160,14 +160,15 @@ Baselines: SOTA end-to-end AMD progression models
 ``` -->
 
 ```bibtex
-@InProceedings{Ger_Interpretablebydesign_MICCAI2024,
+@InProceedings{gervelmeyer2024interpretable,
         author = { Gervelmeyer, Julius and Müller, Sarah and Djoumessi, Kerol and Merle, David and Clark, Simon J. and Koch, Lisa and Berens, Philipp},
         title = { { Interpretable-by-design Deep Survival Analysis for Disease Progression Modeling } },
         booktitle = {Proceedings of Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
         year = {2024},
         publisher = {Springer Nature Switzerland},
         volume = {LNCS 15010},
-        month = {October}
+        month = {October},
+	URL = {https://papers.miccai.org/miccai-2024/421-Paper1325.html}
 }
 ```
 
